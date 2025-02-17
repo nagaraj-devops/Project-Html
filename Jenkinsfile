@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/nagaraj-devops/your-repo.git'
+                git 'https://github.com/nagaraj-devops/Project-Html.git'
             }
         }
         stage('Build Docker Image') {
